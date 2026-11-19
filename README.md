@@ -1,60 +1,17 @@
-# Arma tu piñata
-
-Proyecto base para el challenge de AWS en Nerdearla México. Arma tu propia piñata, decide qué trae adentro y publícala en AWS con [AWS Amplify](https://aws.amazon.com/amplify/hosting/?trk=54e40584-a59e-4b8d-a5b4-ecfbd722ff7e&sc_channel=el).
-
-No necesitas instalar nada. Puedes hacer todo desde el navegador, también desde tu celular.
-
-## Cómo se juega
-
-Toca la piñata para pegarle. Si fallas, le pegas al aire. Cuando se rompe, toca los dulces para juntarlos.
-
-## Lo que necesitas
-
-- Una cuenta de GitHub
-- Un navegador
-
-## 1. Crea tu cuenta de AWS
-
-Abre [este enlace para crear tu cuenta de AWS](https://signin.aws.amazon.com/signup?request_type=builderId&trk=54e40584-a59e-4b8d-a5b4-ecfbd722ff7e&sc_channel=el) y completa el registro. Si eres elegible para AWS Free Tier, tu cuenta empieza en el **Free plan**, con USD 100 en créditos. El Free plan no genera cargos mientras no cambies al Paid plan.
-
-## 2. Haz un fork de este repositorio
-
-1. Abre [este enlace para hacer un fork](https://github.com/anacunha/nerdearla-mx-pinata/fork).
-2. Deja el nombre como está (o cámbialo si quieres) y haz clic en **Create fork**.
-
-## 3. Arma tu piñata
-
-En tu fork, abre cada archivo y haz clic en el lápiz para editarlo. Busca los `TODO`: cada uno explica qué cambiar y trae un ejemplo.
-
-| TODO | Archivo | Qué decides |
-|---|---|---|
-| 1 | `index.html` | El nombre de tu fiesta |
-| 2 | `index.html` | Lo que se grita cuando se rompe la piñata |
-| 3 | `styles.css` | Los colores de tu piñata |
-| 4 | `script.js` | Qué trae adentro: dulces, fruta o lo que quieras |
-| 5 | `script.js` | Cuántos picos tiene |
-| 6 | `script.js` | Cuántos golpes aguanta |
-| 7 | `script.js` | Qué tanto se mueve |
-
-Cuando termines con un archivo, haz clic en **Commit changes**.
-
-## 4. Publica tu piñata con Amplify
-
-1. Abre la [consola de Amplify](https://console.aws.amazon.com/amplify/create/repo-branch?trk=54e40584-a59e-4b8d-a5b4-ecfbd722ff7e&sc_channel=el).
-2. Elige **GitHub** y haz clic en **Next**.
-3. En la ventana de GitHub, autoriza a Amplify. Cuando te pregunte a qué repositorios puede acceder, elige **Only select repositories** y selecciona tu fork.
-4. Selecciona tu repositorio y la rama `main`.
-5. En **App settings**, mira la configuración de build. Amplify revisó tu repositorio, vio que no hay framework y va a publicar los archivos tal como están. No cambies nada.
-6. Haz clic en **Next** hasta llegar a **Save and deploy**.
-
-Amplify descarga tu código, lo publica y te muestra el progreso. Tarda alrededor de un minuto.
-
-## 5. Juega en tu URL
-
-Cuando termine, haz clic en **Visit deployed URL**. Tu URL se ve así: `https://main.d1234abcd.amplifyapp.com`.
-
-Ábrela en tu celular y rompe tu piñata.
-
-## 6. Sigue cambiándola
-
-¿Quieres más picos o que sea más difícil de romper? Edita el archivo en GitHub y haz commit. Amplify ve el cambio y publica una versión nueva de tu piñata, sin que hagas deploy a mano.
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi piñata</title>
+    <meta name="description" content="Una piñata para romper desde el navegador, publicada con AWS Amplify en Nerdearla México." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-32 -32 64 64'%3E%3Cpath d='M0-30L7-9 29-9 11 4 18 26 0 13-18 26-11 4-29-9-7-9Z' fill='%23E4007C' stroke='%23111' stroke-width='3' stroke-linejoin='round'/%3E%3Ccircle r='8' fill='%23FFC21A' stroke='%23111' stroke-width='3'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Shrikhand&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="fiesta">
+  </body>
+</html>
